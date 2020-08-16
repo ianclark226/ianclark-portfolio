@@ -5,7 +5,7 @@ body {
     height: 100vh;
     background-color: coral;
     background-image: url(https://www.improgrammer.net/wp-content/uploads/2018/07/provoke-art-3563931_1920.jpg);
-    opacity: 50%;
+    
   }
   .content {
     display: flex;
@@ -66,29 +66,87 @@ body {
   }
 
   .about {
-      width: 300px;
-      height: 300px;
-      margin: 10px;
-      border: 1px solid black;
-  }
+    position: absolute;
+    bottom: -50px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    background: #222;
+    border-radius: 5px;
+    -webkit-animation: move 1s ease-in-out forwards;
+            animation: move 1s ease-in-out forwards;
+}
+      
+      
+
+      @-webkit-keyframes move {
+        100% {
+            bottom: 500px;
+        }
+    }
+    
+    @keyframes move {
+        100% {
+            bottom: 500px;
+        }
+    }
+
+      
 
   img {
-    width: 300px;
+    width: 400px;
     height:300px;
     
   }
 
   .portfolio {
-      width: 300px;
-      height: 300px;
-      left: 10px;
-      margin: 10px;
+    position: absolute;
+    bottom: -50px;
+    left: 520px;
+    width: 50px;
+    height: 50px;
+    background: #222;
+    border-radius: 5px;
+    -webkit-animation: move 1s ease-in-out forwards;
+            animation: move 1s ease-in-out forwards;
+}
       
-  }
+      
+
+      @-webkit-keyframes move {
+        100% {
+            bottom: 500px;
+        }
+    }
+    
+    @keyframes move {
+        100% {
+            bottom: 500px;
+        }
+    }
 
   .contact {
-    width: 300px;
-    height: 300px;
-    right: 10px;
-    margin: 10px;
-  }
+    position: absolute;
+    bottom: -50px;
+    right: 375px;
+    width: 50px;
+    height: 50px;
+    background: #222;
+    border-radius: 5px;
+    -webkit-animation: move 1s ease-in-out forwards;
+            animation: move 1s ease-in-out forwards;
+}
+      
+      
+
+      @-webkit-keyframes move {
+        100% {
+            bottom: 500px;
+        }
+    }
+    
+    @keyframes move {
+        100% {
+            bottom: 500px;
+        }
+    }
