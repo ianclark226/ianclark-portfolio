@@ -20,8 +20,8 @@
         <a href="#">General</a>
         <div class="dropdown dropdown1">
           <div class="bio">
-            <img src="https://noonanelectricalservices.com/wp-content/uploads/2017/07/man-portrait-silhouette.gif">
-            <p>Insert text here!</p>
+            <img src="general.jpg" class="pics">
+            <p>I am a Full Stack developer passionate for problem solving and learning. I am passionate about programming and providing new applications not known to the world. I am a hard worker and a team player to collaborate with other passionate developers. Right now I am currently looking for my first junior developer role whether in fullstack or front end development. When I am not coding, some things I enjoy doing are playing video games and table top games. I also enjoy going for hikes and socializing with people or friends.  </p>
           </div>
         </div>
       </li>
@@ -29,8 +29,8 @@
         <a href="#">Education</a>
         <div class="dropdown dropdown1">
             <div class="bio">
-              <img src="https://noonanelectricalservices.com/wp-content/uploads/2017/07/man-portrait-silhouette.gif">
-              <p>Insert text here!</p>
+              <img src="education.jpg" class="pics">
+              <p>Back in 2016 I received my bachelors degree in Game Design and Development where I developed games as well as video editing, graphic design, and 3d modeling of environments and characters. I then continued my education by enrolling in Penn LPS Coding Bootcamp back in early November where I was taught many different technologies front end and back end. The program was suppose to be in person but ended up finishing the last 1/3 remote. I recently graduated in early May now looking for a developer role.</p>
             </div>
           </div>
         </li>
@@ -39,8 +39,8 @@
         <a href="#">Hospitality</a>
         <div class="dropdown dropdown1">
             <div class="bio">
-              <img src="https://noonanelectricalservices.com/wp-content/uploads/2017/07/man-portrait-silhouette.gif">
-              <p>Insert text here!</p>
+              <img src="hospitality.jpg" class="pics">
+              <p>Throughout my year of college to present day, I have worked in the hospitality industry for around 8 years from a busser all the way to server. There I have provided high quality service to the cliente in upscale atmospheres. You are probably wondering why I would include this in a fullstack developer website. To answer that question the restaurant industry tends to be a tough job at times during busy days. It shows that I am able to handle pressure, implement teamwork with other staff members and still go above and beyond whether I’m at a table or behind a computer screen.</p>
             </div>
           </div>
         </li>
@@ -126,6 +126,7 @@
     height: 100px;
     position: absolute;
     background: #fff;
+    border-radius: 20px;
     
     box-shadow: 0 50px 100px rgba(50,50,93,.1), 0 15px 35px rgba(50,50,93,.15), 0 5px 15px rgba(0,0,0,.1);
     transition: all 0.3s, opacity 0.1s, transform 0.2s;
@@ -145,6 +146,7 @@
     height: 20px;
     display: block;
     background: white;
+    
     transform: translateY(-50%) rotate(45deg);
   }
 
@@ -154,13 +156,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
-    background-color: red;
+    border-radius: 20px;
+    background-color: #e0a2f2;
   }
 
-  .bio img {
+  .bio img  {
     float: left;
     
+  }
+
+  .bio .pics {
+      float: left;
   }
 
   img {
@@ -190,6 +196,14 @@
     padding: 10px;
     color: white;
     margin-bottom: 10px;
+
+    
+  }
+
+  .pics {
+      width: 500px;
+      height: 600px;
+      float: left;
   }
 
   /* Matches Twitter, TWITTER, twitter, tWitter, TWiTTeR... */
