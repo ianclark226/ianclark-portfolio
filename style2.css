@@ -118,6 +118,7 @@ h3 {
 
     width: 290px;
     height:190px;
+    padding: 20px;
     
 }
 
@@ -146,6 +147,7 @@ h3 {
 .col-9 {
     color: white;
     font-size: 20px;
+    margin: 50px;
 }
 
 .section-description2 {
@@ -157,3 +159,28 @@ h3 {
 .button[href*=Github] { background: #019FE9; }
 .button[href*=LinkedIn] { background: #3B5998; }
 .button[href*=Resume] { background: #ffc600; }
+
+.portfolio-contain {
+    width: 100%;
+    margin-bottom: 30px;
+    overflow: auto;
+}
+
+.portfolio-block {
+    
+    
+    float: left;
+    margin-right: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-block img {
+    width: 100%;
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
